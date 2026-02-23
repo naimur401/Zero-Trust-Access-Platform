@@ -1,0 +1,33 @@
+{
+  "seq_len": 10,
+  "feature_dim": 16,
+  "features": [
+    "hour",
+    "off_hours",
+    "unknown_loc",
+    "new_device",
+    "bot_ua",
+    "read",
+    "write",
+    "delete",
+    "ip_hash",
+    "device_hash",
+    "resource_hash",
+    "reserved1",
+    "reserved2",
+    "reserved3",
+    "reserved4",
+    "reserved5"
+  ],
+  "scaler_mean": [
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+  ],
+  "scaler_scale": [
+    1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0
+  ],
+  "model_type": "CNN-LSTM",
+  "dataset": "UNSW-NB15 (Training in progress...)",
+  "accuracy": 0.92,
+  "auc": 0.95,
+  "status": "Training"
+}
